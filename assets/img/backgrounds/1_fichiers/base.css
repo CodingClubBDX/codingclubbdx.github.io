@@ -1,0 +1,178 @@
+@import url("reset.css");
+
+body {
+	background:#fdfdfd url(../images/bg.jpg) center top no-repeat;
+}
+body.inscription {
+	background:#fdfdfd url(../images/bg-formulaire.jpg) center top no-repeat;
+}
+.container {
+	min-height:1775px;
+}
+.container, .footer-container, .container-form {
+	width:960px;
+	margin:auto;
+}
+body.inscription .content {
+	padding-left:70px;
+}
+header {
+	padding-top:30px;
+	height:250px;
+}
+h1 {
+	color: #00baff;
+	font-size:24px;
+	font-weight:bold;
+	line-height: 28px;
+	display:block;
+	width:200px;
+	float:left;
+	margin:69px 60px 0 60px;
+}
+header img {
+	float:left;
+}
+.logo-epitech {
+	margin-top:25px;
+}
+.content {
+	clear:both;
+	position:relative;
+	min-height:750px;
+}
+h2 {
+	font-size:22px;
+	color:#FFF;
+	text-transform:uppercase;
+	background:#00baff;
+	display:inline;
+	padding:3px 12px;
+	font-weight:normal;
+}
+h3 {
+	font-size:22px;
+	line-height: 30px;
+	color:#00baff;	
+}
+.social {
+	width:320px;
+	text-align:right;
+	position:absolute;
+	left:230px;
+	top:5px;
+}
+
+.share {
+	text-align:center;
+	margin:0 auto 50px;
+	width: 500px;
+	position: relative;
+}
+
+.fb-like {
+	margin-right:40px;
+}
+.fb_iframe_widget {
+    position: absolute !important;
+    left: 80px;
+}
+.twitter-share-button {
+	margin-left: 140px;
+}
+.description {
+	margin-top:10px;
+}
+.description, .formulaire {
+	width:600px;
+}
+strong {
+	color:#00baff;
+}
+a, a:visited {
+	color:#000;
+}
+.monster {
+	width:233px;
+	height:311px;
+	overflow:hidden;
+	text-indent:-99em;
+	background:url(../images/monstre-pancarte.jpg);
+	position:absolute;
+	left:-20px;
+	top:453px;
+}
+.invitation {
+	width:303px;
+	height:231px;
+	overflow:hidden;
+	text-indent:-99em;
+	background:url(../images/12-villes.jpg);
+	position:absolute;
+	left:600px;
+	top:70px;
+}
+.map {
+	position:absolute;
+	top:20px;
+	left:85px;
+	border:solid 5px #00baff;
+	height:345px;
+	overflow:hidden;
+	background:url(../images/bg-map.jpg);
+}
+.monstre-jaune {
+	width:77px;
+	height:57px;
+	background:url(../images/monstre-jaune.jpg);
+	position:absolute;
+	top:15px;
+	left:666px;
+}
+.list-left {
+	position:absolute;
+	left:340px;
+	top:455px;
+}
+.list-right {
+	position:absolute;
+	left:540px;
+	top:455px;
+}
+.content ul {
+	list-style:square;
+	font-size:22px;
+	color:#00baff;
+}
+.content ul a, .content ul a:visited {
+	color:#00baff;
+	text-decoration:none;
+}
+
+.content ul a:hover {
+	text-decoration:underline;
+}
+.fb_link{
+      display: block;
+  position: absolute;
+  right: -10px;
+  top: 50px;
+  width: 120px;
+  height: 155px;
+
+}
+footer {
+	background-color:#00baff;
+	text-align:center;
+	padding:26px 0;
+}
+footer img {
+	margin-left:20px;
+}
+.map-container{
+    position:relative;
+    min-height: 1255px;
+    background:url(../images/bg_villes.png);
+    background-repeat: no-repeat;
+    background-position: center 355px;
+}
